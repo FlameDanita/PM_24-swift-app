@@ -16,8 +16,8 @@ enum Categories : String {
 }
 
 enum GenderCategory: String{
-    case Unisex = "All"
-    case Male = "MEN"
-    case Female = "WOMEN" 
+    case Unisex = "Все"
+    case Male = "Мужское"
+    case Female = "Женское" 
 }
 

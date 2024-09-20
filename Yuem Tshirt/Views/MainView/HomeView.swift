@@ -27,9 +27,14 @@ struct HomeView: View {
                         ScrollView(.vertical){
                             HeroImageView()
                             NewArrivalView()
-                            Image("Brand")
+                            Image("Divider")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
+                                .frame(width: 140)
+                                .padding(.top, 10)
+//                            Image("Brand")
+//                                .resizable()
+//                                .aspectRatio(contentMode: .fit)
                             CollectionsView()
                             TrendingHashtagsView()
                             FooterView()
@@ -124,7 +129,7 @@ struct HomeView: View {
                 
             } label :{
                 HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 8) {
-                    Text("Explore More")
+                    Text("Узнать больше")
                         .font(tenorSans(size: 20))
                         .multilineTextAlignment(.center)
                     
@@ -138,14 +143,14 @@ struct HomeView: View {
     }
     @ViewBuilder
     private func CollectionsView() -> some View{
-        Text("Collections")
+        Text("Коллекции")
             .font(tenorSans(size: 28))
             .foregroundStyle(Color.black)
         
         NavigationLink{
             ProductsList()
         }label: {
-            Image("Collection 1")
+            Image("Collection test")
                 .resizable()
                 .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
                 .frame(height: 244, alignment: .top)
@@ -155,7 +160,7 @@ struct HomeView: View {
         NavigationLink {
             ProductsList()
         } label: {
-            Image("Collection 2")
+            Image("Collection test 2")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(height: 244, alignment: .top)

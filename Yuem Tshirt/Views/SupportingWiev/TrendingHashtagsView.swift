@@ -10,7 +10,7 @@ import SwiftUI
 struct TrendingHashtagsView: View {
     var body: some View {
         VStack {
-            Text("@Trending")
+            Text("Наши хештеги")
                 .font(tenorSans(size: 18))
                 .multilineTextAlignment(.center)
                 .foregroundColor(.black)

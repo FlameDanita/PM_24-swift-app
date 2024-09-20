@@ -29,7 +29,7 @@ struct ProductitemView: View {
                 .foregroundColor(Color.BodyGrey)
                 .frame(width: 165, alignment: .top)
             
-            Text("$\(product.price)")
+            Text("\(product.price) коинов")
                 .font(Font.custom("Tenor Sans", size: 14))
                 .foregroundColor(Color.Default)
                 .padding(.top, 2 )

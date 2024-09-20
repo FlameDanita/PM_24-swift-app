@@ -11,7 +11,8 @@ import SwiftUI
 struct Yuem_TshirtApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            HomeView()
         }
     }
 }
