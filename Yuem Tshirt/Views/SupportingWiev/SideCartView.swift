@@ -31,7 +31,7 @@ struct SideCartViewContents: View {
             SideMenuTopView()
                 .padding([.leading, .trailing], 20)
             
-            Text("CART")
+            Text("Корзина")
                 .font(tenorSans(size: 24))
                 .foregroundColor(.black)
                 .padding([.leading, .trailing], 20)
@@ -51,7 +51,7 @@ struct SideCartViewContents: View {
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 20, height: 20)
                         .colorInvert()
-                    Text("Continue Shopping")
+                    Text("Продолжить покупки")
                         .font(tenorSans(size: 16))
                         .multilineTextAlignment(.center)
                         .foregroundColor(.white)
@@ -93,7 +93,7 @@ struct SideCartViewContents: View {
     @ViewBuilder
     func EmptyCartView() -> some View {
         VStack(alignment: .leading) {
-            Text("You have no items in your shopping bag")
+            Text("В вашей корзине пусто :(")
                 .font(tenorSans(size: 16))
                 .multilineTextAlignment(.center)
                 .foregroundColor(Color.Placehoder)
@@ -123,19 +123,19 @@ struct SideCartViewContents: View {
                         .background(Color.BodyGrey)
                     
                     HStack {
-                        Text("SUB TOTAL")
+                        Text("Итог")
                             .font(tenorSans(size: 14))
                             .foregroundColor(.black)
                         
                         Spacer()
                         
-                        Text("$\(totalPrice)")
+                        Text("\(totalPrice) коинов")
                             .font(tenorSans(size: 16))
                             .foregroundColor(Color.Default)
                     }
                     .padding([.leading, .trailing], 20)
                     
-                    Text("*shipping charges, taxes and discount codes   are calculated at the time of accounting. ")
+                    Text("Оформив заказ вы поддерживаете проекты Москвы и повыщаете узнаваемость бренда Твой город - твое дело!")
                         .font(tenorSans(size: 16))
                         .foregroundColor(.Placehoder)
                         .frame(height: 72, alignment: .topLeading)

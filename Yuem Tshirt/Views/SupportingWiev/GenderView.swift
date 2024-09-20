@@ -9,7 +9,7 @@ import SwiftUI
 
 struct GenderView: View {
     var isSelected: Bool = true
-    var title: String = "WOMEN"
+    var title: String = "Женское"
     
     var body: some View {
         VStack(spacing: 1) {

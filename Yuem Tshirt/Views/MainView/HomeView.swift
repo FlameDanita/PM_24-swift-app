@@ -62,7 +62,7 @@ struct HomeView: View {
             ProductsList()
         } label: {
             ZStack{
-                Image("Page")
+                Image("Page_test")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
@@ -72,7 +72,7 @@ struct HomeView: View {
                     print("Explore Collection Button Clicked")
                 }label: {
                     RoundedRectangle(cornerRadius: 30).overlay{
-                        Text("Check Out Collection")
+                        Text("Выбрать себе мерч")
                             .font(Font .custom("Tenor Sans", size: 20))
                             .foregroundColor(.white)
                     }
@@ -87,7 +87,7 @@ struct HomeView: View {
     }
     @ViewBuilder
     private func NewArrivalView() -> some View{
-        Text("New Arrival")
+        Text("Коллекция 2024")
             .font(Font .custom("Tenor Sans", size: 28))
             .multilineTextAlignment(.center)
             .foregroundColor(.black)

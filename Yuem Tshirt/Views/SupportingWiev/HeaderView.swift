@@ -22,7 +22,7 @@ struct HeaderView: View {
                 NavigationLink{
                     HomeView()
                 } label: {
-                    Image("Logo")
+                    Image("TGTD logo")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 84 , height: 84)

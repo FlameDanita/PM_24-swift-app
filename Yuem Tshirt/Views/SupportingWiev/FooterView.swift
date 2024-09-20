@@ -17,17 +17,22 @@ struct FooterView: View {
                 .frame(width: 140)
                 .padding(.top, 10)
             
-            Text("Emre Yilmaz")
+            Text("Никита Широкопетлев")
                 .font(tenorSans(size: 18))
                 .foregroundColor(.black)
                 .padding(.top, 20)
             
-            Text("+90 545 *** ** 59")
+            Text("+7 (926) 441-46-99")
                 .font(tenorSans(size: 18))
                 .foregroundColor(.black)
                 .padding(.top, 20)
             
-            Text("08.00 - 22.00 Everyday")
+            Text("20.09 - 22.09 форум")
+                .font(tenorSans(size: 18))
+                .foregroundColor(.black)
+                .padding(.top, 20)
+            
+            Text("20.09 - 22.09 форум ТГТД")
                 .font(tenorSans(size: 18))
                 .foregroundColor(.black)
                 .padding(.top, 20)
