@@ -49,7 +49,7 @@ struct ProductDetailsView: View {
                                 
                             }
                             
-                            Text("$\(product.price)")
+                            Text("\(product.price) коинов")
                                 .font(tenorSans(size: 28))
                                 .multilineTextAlignment(.leading)
                                 .foregroundColor(.Default)
@@ -57,7 +57,7 @@ struct ProductDetailsView: View {
                         .frame(maxWidth: .infinity)
                         .padding([.leading, .trailing], 20)
                         
-                        Text("DESCRPTION")
+                        Text("О товаре")
                             .font(tenorSans(size: 18))
                             .foregroundColor(.black)
                             .padding(.top, 20)
@@ -68,7 +68,7 @@ struct ProductDetailsView: View {
                             .padding(.top, 3)
                             .padding([.leading, .trailing], 20)
                         
-                        Text("You may also like")
+                        Text("Возможно вам понравится")
                             .font(tenorSans(size: 22))
                             .foregroundColor(.black)
                             .padding(.top, 20)
@@ -91,7 +91,7 @@ struct ProductDetailsView: View {
                             }
                             
                             HStack(alignment: .center, spacing: 8) {
-                                Text("Explore More")
+                                Text("Смотреть все")
                                     .font(tenorSans(size: 20))
                                     .multilineTextAlignment(.center)
                                     .foregroundColor(.black)
@@ -129,7 +129,7 @@ struct ProductDetailsView: View {
                                 .frame(width: 24, height: 24)
                                 .colorInvert()
                             
-                            Text("Add to Basket")
+                            Text("Добавить в корзину")
                                 .font(tenorSans(size: 20))
                                 .kerning(0.14)
                                 .multilineTextAlignment(.center)
