@@ -30,7 +30,7 @@ struct CheckoutView: View {
         Color.white.edgesIgnoringSafeArea(.all)
         ZStack {
             VStack(spacing: 0) {
-                Text("CHECKOUT")
+                Text("Корзина")
                     .font(tenorSans(size: 24))
                     .kerning(4)
                     .multilineTextAlignment(.center)
@@ -73,7 +73,7 @@ struct CheckoutView: View {
                                 .aspectRatio(contentMode: .fit)
                                 .frame(width: 27, height: 27)
                             
-                            Text("Add promo code")
+                            Text("Промокод")
                                 .font(tenorSans(size: 19))
                                 .foregroundColor(.BodyGrey)
                         }
@@ -93,7 +93,7 @@ struct CheckoutView: View {
                                 .aspectRatio(contentMode: .fit)
                                 .frame(width: 27, height: 27)
                             
-                            Text("Delivery")
+                            Text("Адрес")
                                 .font(tenorSans(size: 19))
                                 .foregroundColor(.BodyGrey)
                         }
@@ -109,14 +109,14 @@ struct CheckoutView: View {
                 Spacer()
                 
                 HStack(alignment: .bottom) {
-                    Text("EST. TOTAL")
+                    Text("Итого")
                         .font(tenorSans(size: 14))
                         .kerning(2)
                         .foregroundColor(.black)
                     
                     Spacer()
                     
-                    Text("$\(totalPrice)")
+                    Text("\(totalPrice) коинов")
                         .font(tenorSans(size: 16))
                         .foregroundColor(Color.Default)
                     
@@ -134,7 +134,7 @@ struct CheckoutView: View {
                             .frame(width: 20, height: 20)
                             .colorInvert()
                         
-                        Text("PLACE ORDER")
+                        Text("Оформить заказ")
                             .font(tenorSans(size: 16))
                             .kerning(0.16)
                             .multilineTextAlignment(.center)
@@ -166,7 +166,7 @@ struct CheckoutView: View {
             Color.BodyGrey.opacity(0.91).edgesIgnoringSafeArea(.all)
             
             VStack(alignment: .center, spacing: 10) {
-                Text("PAYMENT SUCCESS")
+                Text("Успешная оплата")
                     .font(tenorSans(size: 20))
                     .kerning(4)
                     .foregroundColor(.black)
@@ -177,7 +177,7 @@ struct CheckoutView: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 70, height: 70)
                     
-                Text("Your payment was success")
+                Text("Успешная оплата")
                     .font(tenorSans(size: 18))
                     .multilineTextAlignment(.center)
                     .foregroundColor(.BodyGrey)
@@ -191,7 +191,7 @@ struct CheckoutView: View {
                     
                 } label: {
                     HStack(alignment: .center, spacing: 10) {
-                        Text("BACK TO HOME")
+                        Text("На главную страницу")
                             .font(tenorSans(size: 16))
                             .multilineTextAlignment(.center)
                             .foregroundColor(.black)
