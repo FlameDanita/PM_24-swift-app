@@ -20,7 +20,7 @@ struct ProductsList: View {
             ZStack {
                 VStack(spacing: 0) {
                     HStack {
-                        Text("PRODUCTS")
+                        Text("Продукты")
                             .font(tenorSans(size: 24))
                             .foregroundColor(.black)
                         Spacer()
