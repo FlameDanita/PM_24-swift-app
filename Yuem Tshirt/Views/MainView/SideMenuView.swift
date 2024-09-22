@@ -40,17 +40,17 @@ struct SideMenuViewContents : View {
                     SideMenuTopView()
                     HStack(spacing: 10) {
                         GenderView(isSelected: selectedCategory == 0,
-                        title: "WOMEN")
+                        title: "Женское")
                         .onTapGesture {
                             selectedCategory = 0
                         }
                         GenderView(isSelected: selectedCategory == 1,
-                        title: "MEN")
+                        title: "Мужское")
                         .onTapGesture {
                             selectedCategory = 1
                         }
                         GenderView(isSelected: selectedCategory == 2,
-                        title: "KIDS")
+                        title: "Подростки")
                         .onTapGesture {
                             selectedCategory = 2
                         }
@@ -72,7 +72,7 @@ struct SideMenuViewContents : View {
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
                                 .frame(width: 24, height: 24)
-                            Text("(786) XXX-8616")
+                            Text("+7 (926) 441-хх-99")
                                 .font(tenorSans(size: 16))
                                 .foregroundColor(.black)
                         }
@@ -88,7 +88,7 @@ struct SideMenuViewContents : View {
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
                                 .frame(width: 24, height: 24)
-                            Text("Tuzla-Istanbul")
+                            Text("Форум ТГТД")
                                 .font(tenorSans(size: 16))
                                 .foregroundColor(.black)
                         }

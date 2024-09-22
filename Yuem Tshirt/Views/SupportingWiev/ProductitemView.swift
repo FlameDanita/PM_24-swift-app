@@ -42,5 +42,5 @@ struct ProductitemView: View {
 
 
 #Preview {
-    ProductitemView(product: product1)
+    ProductitemView(product: product001)
 }

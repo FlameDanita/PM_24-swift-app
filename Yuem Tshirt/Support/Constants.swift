@@ -7,26 +7,77 @@
 
 import SwiftUI
 
-var product1: Product = .init(title: "Шмотка 1", price: 130, description: "Описание 1", images: ["P01_01", "P01_02", "P01_03", "P01_04"], category: .Tshirt, gender: .Unisex)
+//var product1: Product = .init(title: "Шмотка 1", price: 130, description: "Описание 1", images: ["P01_01", "P01_02", "P01_03", "P01_04"], category: .Tshirt, gender: .Unisex)
+//
+//var product2: Product = .init(title: "Шмотка 2", price: 150, description: "Описание 2", images: ["T02_01", "T02_02", "T02_03", "T02_04"], category: .Tshirt, gender: .Unisex)
+//
+//var product3: Product = .init(title: "Шмотка 3", price: 150, description: "Описание 3", images: ["T03_01", "T03_02", "T03_03", "T03_04"], category: .Tshirt, gender: .Male)
+//
+//var product4: Product = .init(title:"Шмотка4" , price: 200, description: "Описание 4", images: ["T04_01", "T04_02", "T04_03", "T04_04"], category: .Tshirt, gender: .Male)
+//
+//var product5: Product = .init(title: "Шмотка 5", price: 255, description: "Описание 5", images: ["P05_01", "P05_02", "P05_03", "P05_04"], category: .Tshirt, gender: .Female)
+//
+//var product6: Product = .init(title: "Шмотка 6", price: 255, description: "Описание 6", images: ["P06_01", "P06_02", "P06_03", "P06_04"], category: .Tshirt, gender: .Female)
 
-var product2: Product = .init(title: "Шмотка 2", price: 150, description: "Описание 2", images: ["T02_01", "T02_02", "T02_03", "T02_04"], category: .Tshirt, gender: .Unisex)
 
-var product3: Product = .init(title: "Шмотка 3", price: 150, description: "Описание 3", images: ["T03_01", "T03_02", "T03_03", "T03_04"], category: .Tshirt, gender: .Unisex)
+var product001: Product = .init(title: "Карта тройка", price: 120, description: "Совместно с Кадровыми сервисами Правительства Москвы мы выпустили тематическую карту \"Тройка\". Она посвящена представителям разных профессий, которые каждый день делают нашу столицу еще красивее, комфортнее и безопаснее.", images: ["P001_01", "P001_02", "P001_03"], category: .Bag, gender: .Unisex)
 
-var product4: Product = .init(title:"Шмотка4" , price: 200, description: "Описание 4", images: ["T04_01", "T04_02", "T04_03", "T04_04"], category: .Tshirt, gender: .Male)
+var product002: Product = .init(title: "Свитшот", price: 300, description: "Свитшот красного цвета выполнен из мягкого хлопкового материала, который обеспечивает комфорт в течение всего дня. Эта кофта имеет свободный крой, который не ограничивает в движении и позволяет чувствовать себя удобно. Он идеально подойдет для повседневной носки или для спортивных занятий.", images: ["P002_01", "P002_02", "P002_03", "P002_04"], category: .Apparel, gender: .Unisex)
 
-var product5: Product = .init(title: "Шмотка 5", price: 255, description: "Описание 5", images: ["P05_01", "P05_02", "P05_03", "P05_04"], category: .Tshirt, gender: .Female)
+var product003: Product = .init(title: "Футболка белая", price: 150, description: "Хлопковая футболка свободного кроя позволяет чувствовать себя непринужденно, а стильный принт добавляет индивидуальности образу. Изготовлена из высококачественных материалов, она приятна на ощупь и обеспечит комфорт даже в самые жаркие дни.\n\nМатериал: 100% хлопок\nЦвет: белый\nСтрана производитель: Россия\nЛинейный ряд: 42-52\nСезон: На любой сезон\nСтиль: Повседневный", images: ["P003_01", "P003_02", "P003_03"], category: .Bag, gender: .Unisex)
 
-var product6: Product = .init(title: "Шмотка 6", price: 255, description: "Описание 6", images: ["P06_01", "P06_02", "P06_03", "P06_04"], category: .Tshirt, gender: .Female)
+var product004: Product = .init(title: "Блокнот", price: 50, description: "Описание", images: ["P004_01", "P004_02", "P004_03"], category: .Tshirt, gender: .Unisex)
 
-var product00: Product = .init(title: "Тишка", price: 255, description: "Описание", images: ["P06_01", "P06_02", "P06_03", "P06_04"], category: .Tshirt, gender: .Female)
+var product005: Product = .init(title: "Ручка", price: 20, description: "Описание", images: ["P005_01", "P005_02", "P005_03"], category: .Bag, gender: .Unisex)
+
+var product006: Product = .init(title: "Кокошник белый", price: 220, description: "Ободок-кокошник классической заостренной формы из премиального плотного бархата высотой 35 мм (+ 2-3мм). Универсальный размер и облегченная стальная основа обеспечивают анатомическую посадку. Сгибая и разгибая гибкий каркас, можно самостоятельно регулировать его прилегание к голове.\n\nМатериал: Спандекс\nСтрана производитель: Россия\nЦвет: Белый", images: ["P006_01", "P006_02", "P006_03"], category: .Tshirt, gender: .Unisex)
+
+var product007: Product = .init(title: "Кокошник бордовый", price: 220, description: "Ободок-кокошник классической заостренной формы из премиального плотного бархата высотой 35 мм (+ 2-3мм). Универсальный размер и облегченная стальная основа обеспечивают анатомическую посадку. Сгибая и разгибая гибкий каркас, можно самостоятельно регулировать его прилегание к голове.\n\nМатериал: Спандекс\nСтрана производитель: Россия\nЦвет: Бордовый", images: ["P007_01", "P007_02"], category: .Tshirt, gender: .Unisex)
+
+var product008: Product = .init(title: "Кокошник красный", price: 220, description: "Ободок-кокошник классической заостренной формы из премиального плотного бархата высотой 35 мм (+ 2-3мм). Универсальный размер и облегченная стальная основа обеспечивают анатомическую посадку. Сгибая и разгибая гибкий каркас, можно самостоятельно регулировать его прилегание к голове.\n\nМатериал: Спандекс\nСтрана производитель: Россия\nЦвет: Красный", images: ["P008_01", "P008_02"], category: .Tshirt, gender: .Unisex)
+
+var product009: Product = .init(title: "Футболка белая", price: 150, description: "Женская и мужская футболка в стиле оверсайз - это стильная и универсальная вещь, в которой удобно и комфортно проводить время. Футболка украшена принтом. Благодаря высококачественным материалам, из которых изготовлена футболка, она будет сохранять свой первоначальный вид долгое время и останется удобной в носке даже после многократных стирок.\n\nМатериал: Хлопок, полиэстер\nЦвет: Кремовый, фиолетовый\nРазмер: 42-52\nСтрана производитель: Россия", images: ["P009_01"], category: .Tshirt, gender: .Unisex)
+
+var product010: Product = .init(title: "Галстук", price: 80, description: "Аксессуар отличного качества и приятный на ощупь. Хорошо держит форму, имеет аккуратные, ровные швы, без торчащих ниток. Галстук подходит как для повседневной носки, например в офис, так и для торжественных мероприятий.\n\nМатериал: Спанбонд\nСтрана производитель: Россия", images: ["P010_01"], category: .Tshirt, gender: .Unisex)
+
+var product011: Product = .init(title: "Галстук", price: 80, description: "Аксессуар отличного качества и приятный на ощупь. Хорошо держит форму, имеет аккуратные, ровные швы, без торчащих ниток. Галстук подходит как для повседневной носки, например в офис, так и для торжественных мероприятий.\n\nМатериал: Спанбонд\nСтрана производитель: Россия", images: ["P011_01"], category: .Tshirt, gender: .Unisex)
+
+var product012: Product = .init(title: "Бутылка", price: 80, description: "Изготовлена из прозрачного и прочного питевого пластика, она не только надежно сохранит питьевую воду, но и позволит контролировать уровень напитка внутри. В отличие от обычных бутылок, имеет широкое горло, что облегчает наполнение и очистку. Компактный размер бутылки позволяет брать ее с собой и она комфортно помещается в сумку. Яркий цвет, мотивирующий принт всегда создаст позитивное настроение и настроит вас на новые победы.\n\nЦвет: Мульти цвет\nОбъем: 350 мл\nМатериал: пищевой пластик (Поликарбонат)\nСтрана производитель: Россия", images: ["P012_01"], category: .Tshirt, gender: .Unisex)
+
+var product013: Product = .init(title: "Шопер", price: 150, description: "Описание", images: ["P013_01"], category: .Bag, gender: .Unisex)
+
+var product014: Product = .init(title: "Шопер крассный", price: 150, description: "Описание", images: ["P014_01", "P014_02", "P014_03"], category: .Bag, gender: .Unisex)
+
+var product015: Product = .init(title: "Теркокружка", price: 300, description: "Термокружка - идеальное решение для любителей горячих напитков в пути! Изделие сочетает в себе современные технологии и интересный эстетичный дизайн, что делает его уникальным и стильным.\nКорпус изделия не деформируется при использовании и не содержит вредных для здоровья веществ (таких, как PFOA и PFOS). Термос имеет двойные стенки, которые выполнены из медицинской нержавеющей стали 18/10, что обеспечивает защиту от коррозии и предотвращает размножение вредных микроорганизмов, благодаря антибактериальным свойствам материала в отличие от алюминиевых и металлических изделий.\nОбеспечивает оптимальную сохранность температуры напитков до 6 часов как для горячих, так и для холодных жидкостей.\n\nЦвет: Чёрный\nОсобенности товара: Вакуумный Отверстие для питья Непроливайка Можно мыть в посудомоечной машине\nСтрана производитель: Россия", images: ["P015_01"], category: .Bag, gender: .Unisex)
+
+var product016: Product = .init(title: "Пластиковый стаканчик", price: 10, description: "Предназначены для одноразового использования и подачи напитков любой температуры. Подходят для воды, соков, чая и кофе.\nСтакан изготовлен из качественного сырья. Бумага не пропускает влагу, швы полностью герметичны, жидкость не вытекает, даже находясь внутри продолжительное время. Пластиковая крышка двойная, что позволяет предотвратить проливание напитка.\n\nМатериал: Бумага Пластик\nЦвет: Черный\nСтрана производитель: Россия", images: ["P016_01"], category: .Bag, gender: .Unisex)
+
+var product017: Product = .init(title: "Кружка", price: 300, description: "Керамическая кружка с оригинальным дизайном – идеальное решение для любителей необычных предметов в повседневной жизни. Эта кружка станет не только функциональным предметом для приема напитков, но и ярким акцентом в интерьере кухни или офиса.\n\nЦвет: чёрный, белый\nОбъем: 200 мл\nМатериал: керамика\nСтрана производитель: Россия", images: ["P017_01"], category: .Bag, gender: .Unisex)
+
+var product018: Product = .init(title: "Футболка черная", price: 150, description: "Описание", images: ["P018_01"], category: .Bag, gender: .Unisex)
+
+var product019: Product = .init(title: "Футболка белая", price: 150, description: "Описание", images: ["P019_01"], category: .Bag, gender: .Unisex)
+
+var product020: Product = .init(title: "Брелок #1", price: 50, description: "Брелок для ключей будет отличным памятным подарком. Также подойдет в качестве подвески на сумку или рюкзак.\n\nМатриал: пластик\nЦвет: прозрачный\nСтрана производитель: Россия", images: ["P020_01"], category: .Bag, gender: .Unisex)
+
+var product021: Product = .init(title: "Брелок #2", price: 50, description: "Брелок для ключей будет отличным памятным подарком. Также подойдет в качестве подвески на сумку или рюкзак.\n\nМатриал: пластик\nЦвет: прозрачный\nСтрана производитель: Россия", images: ["P021_01"], category: .Bag, gender: .Unisex)
+
+var product022: Product = .init(title: "Брелок #3", price: 50, description: "Брелок для ключей будет отличным памятным подарком. Также подойдет в качестве подвески на сумку или рюкзак.\n\nМатриал: пластик\nЦвет: прозрачный\nСтрана производитель: Россия", images: ["P022_01"], category: .Bag, gender: .Unisex)
+
+var product023: Product = .init(title: "Шапка-ушанка", price: 550, description: "Знакомый с детства дизайн в новом прочтении! Идеальное сочетание стиля и комфорта. Шапка изготовлена из плотной ткани Оксфорд и защитит от ветра, снега и влаги, а мягкая подкладка из флиса подарит ощущение уюта. Подойдет для любителей долгих прогулок в любую погоду!\n\nСезон: демисезон\nСостав: оксфорд, флис\nЦвет: бордовый, синий", images: ["P023_01"], category: .Bag, gender: .Unisex)
+
+var product024: Product = .init(title: "Футболка белая", price: 200, description: "Описание", images: ["P024_01"], category: .Bag, gender: .Unisex)
 
 func tenorSans(size: CGFloat) -> Font {
     Font.custom("Tenor Sans", size: size)
 }
 
-let hashtags = ["#2024", "#ТГТД", "#ПМ", "#ХочувПМ", "#ТвойГородТвоеДело", "#МолодежныйФорум"]
+let hashtags = ["#ТвойГородТвоеДело",  "#ТГТД", "#2024", "#МолодежныйФорум", "#ХочувПМ"]
 
-var cartItems: [CartItem] = [.init(product: product1, count: 1), .init(product: product2, count: 2), .init(product: product3, count: 1)]
+var cartItems: [CartItem] = [.init(product: product001, count: 12), .init(product: product002, count: 2), .init(product: product003, count: 2)]
 
-var products: [Product] = [product1, product2, product00]
+var products: [Product] = [product001, product002, product003, product004, product005, product013]
+
+var products_2: [Product] = [product006, product007, product008, product009, product010, product011, product012, product013, product014, product015, product016, product017, product018, product019, product020, product021, product022, product023, product024]
+
+var products_all: [Product] = [product001, product002, product003, product004, product005, product006, product007, product008, product009, product010, product011, product012, product013, product014, product015, product016, product017, product018, product019, product020, product021, product022, product023, product024]

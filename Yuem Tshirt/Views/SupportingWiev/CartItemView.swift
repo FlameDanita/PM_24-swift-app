@@ -85,7 +85,7 @@ struct CartItemView: View {
 
 struct CartItemView_Previews: PreviewProvider {
     static var previews: some View {
-        CartItemView(item: .init(product: product3, count: 1)) {
+        CartItemView(item: .init(product: product003, count: 1)) {
             
         }
     }

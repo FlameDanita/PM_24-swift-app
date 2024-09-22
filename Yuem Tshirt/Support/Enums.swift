@@ -8,11 +8,11 @@
 import Foundation
 
 enum Categories : String {
-    case All = "All"
-    case Apparel = "Apparel"
-    case Dress = "Dress"
-    case Tshirt = "Tshirt"
-    case Bag = "Bag"
+    case All = "Все"
+    case Apparel = "Свитшоты"
+    case Dress = "Платья"
+    case Tshirt = "Футболки"
+    case Bag = "Аксессуары"
 }
 
 enum GenderCategory: String{
@@ -20,4 +20,3 @@ enum GenderCategory: String{
     case Male = "Мужское"
     case Female = "Женское" 
 }
-

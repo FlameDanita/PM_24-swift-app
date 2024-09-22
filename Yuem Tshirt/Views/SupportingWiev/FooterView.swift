@@ -17,31 +17,31 @@ struct FooterView: View {
                 .frame(width: 140)
                 .padding(.top, 10)
             
-            Text("Никита Широкопетлев")
+            Text("Команда №12")
                 .font(tenorSans(size: 18))
                 .foregroundColor(.black)
                 .padding(.top, 20)
             
-            Text("+7 (926) 441-46-99")
+//            Text("+7 (926) 441-хх-99")
+//                .font(tenorSans(size: 18))
+//                .foregroundColor(.black)
+//                .padding(.top, 20)
+            
+            Text("С заботой о вас")
                 .font(tenorSans(size: 18))
                 .foregroundColor(.black)
                 .padding(.top, 20)
             
-            Text("20.09 - 22.09 форум")
+            Text("20-22.09.2024 - Форум ТГТД")
                 .font(tenorSans(size: 18))
                 .foregroundColor(.black)
                 .padding(.top, 20)
             
-            Text("20.09 - 22.09 форум ТГТД")
-                .font(tenorSans(size: 18))
-                .foregroundColor(.black)
-                .padding(.top, 20)
-            
-            Image("Divider")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 140)
-                .padding(.top, 10)
+//            Image("Divider")
+//                .resizable()
+//                .aspectRatio(contentMode: .fit)
+//                .frame(width: 140)
+//                .padding(.top, 10)
            
         }
     }

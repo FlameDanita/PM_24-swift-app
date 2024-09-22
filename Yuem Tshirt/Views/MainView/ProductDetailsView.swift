@@ -52,7 +52,7 @@ struct ProductDetailsView: View {
                             Text("\(product.price) коинов")
                                 .font(tenorSans(size: 28))
                                 .multilineTextAlignment(.leading)
-                                .foregroundColor(.Default)
+                                .foregroundColor(.red)
                         }
                         .frame(maxWidth: .infinity)
                         .padding([.leading, .trailing], 20)
@@ -81,13 +81,13 @@ struct ProductDetailsView: View {
                         
                         VStack {
                             HStack(alignment: .top) {
-                                ProductitemView(product: product2)
-                                ProductitemView(product: product3)
+                                ProductitemView(product: product006)
+                                ProductitemView(product: product008)
                             }
                             
                             HStack(alignment: .top) {
-                                ProductitemView(product: product4)
-                                ProductitemView(product: product5)
+                                ProductitemView(product: product010)
+                                ProductitemView(product: product012)
                             }
                             
                             HStack(alignment: .center, spacing: 8) {
@@ -174,6 +174,6 @@ struct ProductDetailsView: View {
 
 struct ProductDetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        ProductDetailsView(product: product1)
+        ProductDetailsView(product: product001)
     }
 }

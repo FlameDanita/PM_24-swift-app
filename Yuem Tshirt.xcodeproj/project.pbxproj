@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		024D791C2CA0066C00B92EFE /* ProductsList_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024D791B2CA0066C00B92EFE /* ProductsList_2.swift */; };
+		024D791E2CA00B2A00B92EFE /* ProductsList_all.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024D791D2CA00B2A00B92EFE /* ProductsList_all.swift */; };
 		D336673A2C2D80F500D59CE2 /* GenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33667392C2D80F500D59CE2 /* GenderView.swift */; };
 		D34A05982C2EC6BB005145C0 /* SideCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34A05972C2EC6BB005145C0 /* SideCartView.swift */; };
 		D34A059A2C2EC703005145C0 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34A05992C2EC703005145C0 /* CartItem.swift */; };
@@ -56,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		024D791B2CA0066C00B92EFE /* ProductsList_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsList_2.swift; sourceTree = "<group>"; };
+		024D791D2CA00B2A00B92EFE /* ProductsList_all.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsList_all.swift; sourceTree = "<group>"; };
 		D33667392C2D80F500D59CE2 /* GenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderView.swift; sourceTree = "<group>"; };
 		D34A05972C2EC6BB005145C0 /* SideCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideCartView.swift; sourceTree = "<group>"; };
 		D34A05992C2EC703005145C0 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
@@ -241,6 +245,8 @@
 		D3C0D8E82C2892C600CEF1FD /* MainView */ = {
 			isa = PBXGroup;
 			children = (
+				024D791D2CA00B2A00B92EFE /* ProductsList_all.swift */,
+				024D791B2CA0066C00B92EFE /* ProductsList_2.swift */,
 				D398F86E2C2D524E000538DF /* SideMenuView.swift */,
 				D3C902E62C32B8430092C82C /* ProductsList.swift */,
 				D3C902E82C32BA460092C82C /* ProductDetailsView.swift */,
@@ -399,6 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D336673A2C2D80F500D59CE2 /* GenderView.swift in Sources */,
+				024D791C2CA0066C00B92EFE /* ProductsList_2.swift in Sources */,
 				D34A05982C2EC6BB005145C0 /* SideCartView.swift in Sources */,
 				D3C0D8E32C28929900CEF1FD /* typealiases.swift in Sources */,
 				D3C58F352C2C39410066BCBE /* FooterView.swift in Sources */,
@@ -409,6 +416,7 @@
 				D3C58F2F2C2C21960066BCBE /* ProductitemView.swift in Sources */,
 				D3C58F2D2C2C1CD50066BCBE /* CategoryView.swift in Sources */,
 				D3C58F312C2C35DA0066BCBE /* TrendingHashtagsView.swift in Sources */,
+				024D791E2CA00B2A00B92EFE /* ProductsList_all.swift in Sources */,
 				D398F8712C2D528A000538DF /* SideView.swift in Sources */,
 				D38C248D2C29A9FB00E89DA4 /* ColourAndExtensions.swift in Sources */,
 				D34A059C2C2EC81D005145C0 /* CartItemView.swift in Sources */,
@@ -588,6 +596,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Yuem-Tshirt-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Твой мерч";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -618,6 +627,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Yuem-Tshirt-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Твой мерч";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
